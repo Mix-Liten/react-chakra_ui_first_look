@@ -1,5 +1,5 @@
 import { UnlockIcon } from '@chakra-ui/icons'
-import { Avatar, AvatarBadge, Box, Button, Flex, Heading, HStack, Spacer, Text, useToast } from '@chakra-ui/react'
+import { Avatar, AvatarBadge, Button, Flex, Heading, HStack, Spacer, Text, useToast } from '@chakra-ui/react'
 import React from 'react'
 
 export default function Navbar() {
