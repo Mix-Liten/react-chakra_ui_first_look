@@ -24,3 +24,9 @@ export default function Dashboard() {
     </SimpleGrid>
   )
 }
+
+export async function tasksLoader() {
+  const res = await fetch('http://localhost:3000/tasks')
+
+  return res.json()
+}

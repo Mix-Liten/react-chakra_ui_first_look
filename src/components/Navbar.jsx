@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <Flex as="nav" p="10px" alignItems="center" gap="10px">
+    <Flex as="nav" p="10px" alignItems="center" mb="40px" gap="10px">
       <Heading as="h1">Brief Tasks</Heading>
       <Spacer />
 
